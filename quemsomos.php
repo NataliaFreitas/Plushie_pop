@@ -46,6 +46,7 @@
 </div>
    
 <div class="row rodape">
+<a href="https://github.com/NataliaFreitas/Plushie_pop"><button><i class="fa fa-github-alt" aria-hidden="true"></i> GitHub</button></a>
     <footer class="contato">
         <h1>Contato</h1>
         <h3>Rua: Antonio José Gonçalves Filho, Bairro Antártica, 748 </h3>
