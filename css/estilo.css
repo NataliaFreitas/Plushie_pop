@@ -1,0 +1,1187 @@
+/*
+ * style.css 
+ */
+
+.container-fluid 
+{
+
+    padding: 5px;
+    background-image: url(../img/banner2.jpg);
+
+}
+
+.row 
+{
+
+    background-color: #f1d4d4;
+    border: 1px solid #130400;
+
+}
+
+.btn_menu 
+{
+
+    display: none;
+
+}
+
+.menu 
+{
+
+    height: 50px;
+
+}
+
+.menu ul 
+{
+
+    list-style: none;
+
+}
+
+.menu ul li 
+{
+
+    text-decoration: none;
+    float: left;
+    margin-left: 180px;
+
+}
+
+.menu ul li a 
+{
+
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    color: #8679A3;
+    font-size: 20px;
+
+}
+
+[class*="col-"], header, footer, nav, aside, section, div[role="main"] 
+{
+
+    padding: 15px;
+    text-align: center;
+    display: table;
+
+}
+
+div[role="main"] 
+{
+       
+    background-color: #f1d4d4;
+    
+}
+   
+div[role="main"], nav, aside 
+{
+
+    height: 600px;
+} 
+
+.rodape 
+{
+
+    background-color: #484c7f;
+    height: 220px;
+    border: 1px solid #130400;
+}
+
+.banner h2 
+{
+
+    color: #fff; 
+    font-size: 40px; 
+    font-family: 'Lobster', cursive; 
+    text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -2px black; 
+    text-align: center
+}
+
+.livros
+{
+    
+    background-image: url(../img/banner.jpg); 
+    border: 1px solid #130400;
+    padding-bottom: 50px;
+}
+
+.livraria img 
+{
+    
+    border-radius: 10px; 
+    border: 2px dashed #130400;
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 10px;
+    height: 180px;
+    width: 160px;
+}
+
+.livraria 
+{
+
+    display: inline; 
+    margin-left: 55px;
+
+}
+
+.livraria :first-child 
+{
+    
+    margin-left: 25px;
+}
+
+.produtos h1 
+{
+
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+
+}
+
+.adiciona 
+{
+
+    text-decoration: none;
+    color: indigo;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    border: 1px solid indigo;
+    padding: 5px;
+    border-radius: 20px;
+
+}
+
+.adiciona:hover
+{
+
+    color: #fff;
+    background-color: indigo;
+
+}
+
+.produtos 
+{
+
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    overflow: none;
+    white-space: nowrap;
+    background-color: #8679A3;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    display: inline-table;
+}
+
+.item img
+{
+
+    border-radius: 50%;
+    border: 1px solid indigo;
+
+}
+
+.item
+{
+    
+    display: inline-flexbox;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #f1d4d4;
+}
+
+.item:first-child 
+{
+
+    margin-left: 0;
+}
+
+img 
+{
+
+    width: 100px;
+}
+
+.sobre 
+{
+
+    background-color: #8679A3;
+    height: 500px;
+    border: 1px solid #130400;
+}
+
+.sobre h2 
+{
+
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    position: relative;  
+
+}
+
+.sobre h3 
+{
+
+    text-align: center;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+    text-size-adjust: 30px;
+
+}
+
+.bloco 
+{
+
+    margin-top: 5%;
+
+}
+
+.bloco img 
+{
+
+    margin-left: 40%;
+    border-radius: 50%;
+    width: 200px;
+    border: 1px solid #130400;
+
+}
+
+.formulario 
+{
+
+    border: 2px double #fff;
+    border-radius: 10px;
+    align-content: center;
+
+}
+
+.formulario input 
+{
+
+    border: 1px solid #130400;
+
+}
+
+.alert 
+{
+
+    text-align: center;
+    background-color: #98FB98;
+    margin-top: 25%;
+
+}
+
+.rodape h1 
+{
+
+    font-family: 'Lobster', cursive;
+    color: #f1d4d4;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+    text-align: left;
+
+}
+
+.rodape h3 
+{
+
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+    text-align: left;
+
+}
+
+.menu i 
+{
+
+    display: none;
+
+}
+
+.logo
+{
+
+    display: none;
+
+}
+
+.form_img 
+{
+
+    cursor: pointer;
+    float: top;
+    margin: 20px;
+    width: 20%;
+    position: relative;
+    border-radius: 5px;
+
+}
+
+.tabela
+{
+    border: 2px solid black;
+    text-align: center;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) { 
+
+.logo 
+{
+
+    color: #fff;
+    display: inline-table;
+    float: left;
+    margin-left: 25px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+
+}
+
+.topo
+{
+
+    height: 80px;
+    background-color: #f1d4d4;
+
+}
+
+.btn_menu i 
+{
+
+    color: #fff;
+
+}
+
+.btn_menu 
+{
+
+    display: block;
+    width: 70px; 
+    height: 70px;
+    float: right; 
+    border-radius: 70px; 
+    cursor: pointer;
+    background-color: #8679A3;
+    margin: 5px;
+    border: 1px double #130400;
+
+}
+
+.btn_close 
+{
+    
+
+    font-size: 1.5em; 
+    color: #fff; 
+    float: right; 
+    cursor: pointer; 
+    margin: 2% 3% 0 0;
+
+}
+
+.btn_close a 
+{
+
+    color: #fff;
+
+}
+
+.banner
+{
+
+    float: top;
+
+}
+
+.menu 
+{
+
+    display: none;
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    background-color: #8679A3; 
+    top: 0; 
+    left: 0;
+    opacity: 0.9;
+
+}
+
+.menu ul li 
+{
+
+    margin-top: 40px;
+
+}
+
+.menu ul li a 
+{
+
+    color: #fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 4em;
+    margin-left: -50px;
+
+}
+
+.livros 
+{
+
+    width: 100%;
+    position: relative;
+
+}
+
+.livraria 
+{
+
+    width: 100%;
+    position: relative;
+
+}
+
+
+
+.contato h1
+{
+
+    text-align: center;
+
+}
+
+.contato h3 
+{
+
+    text-align: center;
+    text-size-adjust: 10px;
+
+}
+
+.rodape 
+{
+
+    height: 300px;
+
+}
+
+.alert 
+{
+
+    border: 1px dashed #130400;
+    text-align: center;
+    align-content: center;
+    background-color: #98FB98;
+    margin-top: 25%;
+}
+
+.bloco 
+{
+
+    margin-top: 80px;
+    align-content: center;
+    text-align: center;
+    font-size: medium;
+
+}
+
+.bloco img 
+{
+
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 15px;
+
+}
+
+.form_img 
+{
+
+    cursor: pointer;
+    float: top;
+    margin: 20px;
+    width: 20%;
+    position: relative;
+    border-radius: 5px;
+
+}
+
+.tabela 
+{
+    border: 1px solid black;
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    .container-fluid 
+    {
+
+        padding: 5px;
+        background-image: url(../img/banner2.jpg);
+    
+    }
+    
+    .row 
+    {
+    
+        background-color: #f1d4d4;
+        border: 1px solid #130400;
+    
+    }
+    
+    .btn_menu 
+    {
+    
+        display: none;
+    
+    }
+    
+    .menu 
+    {
+    
+        height: 50px;
+    
+    }
+    
+    .menu ul
+    {
+    
+        list-style: none;
+    
+    }
+    
+    .menu ul li 
+    {
+    
+        text-decoration: none;
+        float: left;
+        margin-left: 180px;
+    
+    }
+    
+    .menu ul li a 
+    {
+    
+        text-decoration: none;
+        font-family: 'Lobster', cursive;
+        color: #8679A3;
+        font-size: 20px;
+    
+    }
+    
+    [class*="col-"], header, footer, nav, aside, section, div[role="main"] 
+    {
+    
+        padding: 15px;
+        text-align: center;
+        display: table;
+    
+    }
+    
+    div[role="main"] 
+    {
+           
+        background-color: #f1d4d4;
+        
+    }
+       
+    div[role="main"], nav, aside 
+    {
+    
+        height: 600px;
+    } 
+    
+    .rodape 
+    {
+    
+        background-color: #484c7f;
+        height: 220px;
+        border: 1px solid #130400;
+    }
+    
+    .banner h2 
+    {
+    
+        color: #fff; 
+        font-size: 40px; 
+        font-family: 'Lobster', cursive; 
+        text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -2px black; 
+        text-align: center
+    }
+    
+    .livros 
+    {
+        
+        background-image: url(../img/banner.jpg); 
+        border: 1px solid #130400;
+        padding-bottom: 50px;
+    }
+    
+    .livraria img 
+    {
+        
+        border-radius: 10px; 
+        border: 2px dashed #130400;
+        display: inline-block;
+        margin-top: 50px;
+        margin-right: 10px;
+        height: 180px;
+        width: 160px;
+    }
+    
+    .livraria 
+    {
+    
+        display: inline; 
+        margin-left: 55px;
+    
+    }
+    
+    .livraria :first-child 
+    {
+        
+        margin-left: 25px;
+    }
+    
+    .produtos h1 
+    {
+    
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        color: #fff;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+    
+    }
+    
+    .adiciona 
+    {
+    
+        text-decoration: none;
+        color: indigo;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        border: 1px solid indigo;
+        padding: 5px;
+        border-radius: 20px;
+    
+    }
+    
+    .adiciona:hover 
+    {
+    
+        color: #fff;
+        background-color: indigo;
+    
+    }
+    
+    .produtos 
+    {
+    
+        width: 100%;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 5px;
+        overflow: none;
+        white-space: nowrap;
+        background-color: #8679A3;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        display: inline-table;
+    }
+    
+    .item img 
+    {
+    
+        border-radius: 50%;
+        border: 1px solid indigo;
+    
+    }
+    
+    .item 
+    {
+        
+        display: inline-flexbox;
+        border-style: solid;
+        border-width: 1px;
+        background-color: #f1d4d4;
+    }
+    
+    .item:first-child 
+    {
+    
+        margin-left: 0;
+    }
+    
+    img 
+    {
+    
+        width: 100px;
+    }
+    
+    .sobre 
+    {
+    
+        background-color: #8679A3;
+        height: 500px;
+        border: 1px solid #130400;
+    }
+    
+    .sobre h2 
+    {
+    
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        color: #fff;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        position: relative;  
+    
+    }
+    
+    .sobre h3 
+    {
+    
+        text-align: center;
+        color: #fff;
+        font-family: 'Lato', sans-serif;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+        text-size-adjust: 30px;
+    
+    }
+    
+    .bloco 
+    {
+    
+        margin-top: 5%;
+    
+    }
+    
+    .bloco img 
+    {
+    
+        margin-left: 40%;
+        border-radius: 50%;
+        width: 200px;
+        border: 1px solid #130400;
+    
+    }
+    
+    .formulario 
+    {
+    
+        border: 2px double #fff;
+        border-radius: 10px;
+        align-content: center;
+    
+    }
+    
+    .formulario input 
+    {
+    
+        border: 1px solid #130400;
+    
+    }
+    
+    .alert 
+    {
+    
+        text-align: center;
+        background-color: #98FB98;
+        margin-top: 25%;
+    
+    }
+    
+    .rodape h1 
+    {
+    
+        font-family: 'Lobster', cursive;
+        color: #f1d4d4;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+        text-align: left;
+    
+    }
+    
+    .rodape h3 
+    {
+    
+        font-family: 'Lato', sans-serif;
+        color: #fff;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+        text-align: left;
+    
+    }
+    
+    .menu i 
+    {
+    
+        display: none;
+    
+    }
+    
+    .logo 
+    {
+    
+        display: none;
+    
+    }
+
+    .form_img 
+    {
+
+        cursor: pointer;
+        float: top;
+        margin: 20px;
+        width: 20%;
+        position: relative;
+        border-radius: 5px;
+    
+    }
+
+    
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) { 
+
+    .container-fluid 
+    {
+
+        padding: 5px;
+        background-image: url(../img/banner2.jpg);
+    
+    }
+    
+    .row 
+    {
+    
+        background-color: #f1d4d4;
+        border: 1px solid #130400;
+    
+    }
+    
+    .btn_menu
+    {
+    
+        display: none;
+    
+    }
+    
+    .menu 
+    {
+    
+        height: 50px;
+    
+    }
+    
+    .menu ul 
+    {
+    
+        list-style: none;
+    
+    }
+    
+    .menu ul li 
+    {
+    
+        text-decoration: none;
+        float: left;
+        margin-left: 180px;
+    
+    }
+    
+    .menu ul li a 
+    {
+    
+        text-decoration: none;
+        font-family: 'Lobster', cursive;
+        color: #8679A3;
+        font-size: 20px;
+    
+    }
+    
+    [class*="col-"], header, footer, nav, aside, section, div[role="main"] 
+    {
+    
+        padding: 15px;
+        text-align: center;
+        display: table;
+    
+    }
+    
+    div[role="main"] 
+    {
+           
+        background-color: #f1d4d4;
+        
+    }
+       
+    div[role="main"], nav, aside 
+    {
+    
+        height: 600px;
+    } 
+    
+    .rodape 
+    {
+    
+        background-color: #484c7f;
+        height: 220px;
+        border: 1px solid #130400;
+    }
+    
+    .banner h2 
+    {
+    
+        color: #fff; 
+        font-size: 40px; 
+        font-family: 'Lobster', cursive; 
+        text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -2px black; 
+        text-align: center
+    }
+    
+    .livros 
+    {
+        
+        background-image: url(../img/banner.jpg); 
+        border: 1px solid #130400;
+        padding-bottom: 50px;
+    }
+    
+    .livraria img 
+    {
+        
+        border-radius: 10px; 
+        border: 2px dashed #130400;
+        display: inline-block;
+        margin-top: 50px;
+        margin-right: 10px;
+        height: 180px;
+        width: 160px;
+    }
+    
+    .livraria 
+    {
+    
+        display: inline; 
+        margin-left: 55px;
+    
+    }
+    
+    .livraria :first-child 
+    {
+        
+        margin-left: 25px;
+    }
+    
+    .produtos h1 
+    {
+    
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        color: #fff;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+    
+    }
+    
+    .adiciona 
+    {
+    
+        text-decoration: none;
+        color: indigo;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        border: 1px solid indigo;
+        padding: 5px;
+        border-radius: 20px;
+    
+    }
+    
+    .adiciona:hover
+    {
+    
+        color: #fff;
+        background-color: indigo;
+    
+    }
+    
+    .produtos 
+    {
+    
+        width: 100%;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 5px;
+        overflow: none;
+        white-space: nowrap;
+        background-color: #8679A3;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        display: inline-table;
+    }
+    
+    .item img 
+    {
+    
+        border-radius: 50%;
+        border: 1px solid indigo;
+    
+    }
+    
+    .item
+    {
+        
+        display: inline-flexbox;
+        border-style: solid;
+        border-width: 1px;
+        background-color: #f1d4d4;
+    }
+    
+    .item:first-child 
+    {
+    
+        margin-left: 0;
+    }
+    
+    img 
+    {
+    
+        width: 100px;
+    }
+    
+    .sobre 
+    {
+    
+        background-color: #8679A3;
+        height: 500px;
+        border: 1px solid #130400;
+    }
+    
+    .sobre h2 
+    {
+    
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        color: #fff;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        position: relative;  
+    
+    }
+    
+    .sobre h3 
+    {
+    
+        text-align: center;
+        color: #fff;
+        font-family: 'Lato', sans-serif;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+        text-size-adjust: 30px;
+    
+    }
+    
+    .bloco 
+    {
+    
+        margin-top: 5%;
+    
+    }
+    
+    .bloco img 
+    {
+    
+        margin-left: 40%;
+        border-radius: 50%;
+        width: 200px;
+        border: 1px solid #130400;
+    
+    }
+    
+    .formulario
+    {
+    
+        border: 2px double #fff;
+        border-radius: 10px;
+        align-content: center;
+    
+    }
+    
+    .formulario input 
+    {
+    
+        border: 1px solid #130400;
+    
+    }
+    
+    .alert 
+    {
+    
+        text-align: center;
+        background-color: #98FB98;
+        margin-top: 25%;
+    
+    }
+    
+    .rodape h1
+    {
+    
+        font-family: 'Lobster', cursive;
+        color: #f1d4d4;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+        text-align: left;
+    
+    }
+    
+    .rodape h3 
+    {
+    
+        font-family: 'Lato', sans-serif;
+        color: #fff;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+        text-align: left;
+    
+    }
+    
+    .menu i 
+    {
+    
+        display: none;
+    
+    }
+    
+    .logo 
+    {
+    
+        display: none;
+    
+    }
+
+    .form_img 
+    {
+
+        cursor: pointer;
+        float: top;
+        margin: 20px;
+        width: 20%;
+        position: relative;
+        border-radius: 5px;
+    
+    }
+    
+
+}
+}
