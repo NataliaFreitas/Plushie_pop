@@ -2,45 +2,39 @@
  * style.css 
  */
 
-.container-fluid 
-{
+.container-fluid {
 
     padding: 5px;
     background-image: url(../img/banner2.jpg);
 
 }
 
-.row 
-{
+.row {
 
     background-color: #f1d4d4;
     border: 1px solid #130400;
 
 }
 
-.btn_menu 
-{
+.btn_menu {
 
     display: none;
 
 }
 
-.menu 
-{
+.menu {
 
     height: 50px;
 
 }
 
-.menu ul 
-{
+.menu ul {
 
     list-style: none;
 
 }
 
-.menu ul li 
-{
+.menu ul li {
 
     text-decoration: none;
     float: left;
@@ -48,8 +42,7 @@
 
 }
 
-.menu ul li a 
-{
+.menu ul li a {
 
     text-decoration: none;
     font-family: 'Lobster', cursive;
@@ -58,8 +51,7 @@
 
 }
 
-[class*="col-"], header, footer, nav, aside, section, div[role="main"] 
-{
+[class*="col-"], header, footer, nav, aside, section, div[role="main"] {
 
     padding: 15px;
     text-align: center;
@@ -67,29 +59,25 @@
 
 }
 
-div[role="main"] 
-{
+div[role="main"] {
        
     background-color: #f1d4d4;
     
 }
    
-div[role="main"], nav, aside 
-{
+div[role="main"], nav, aside {
 
     height: 600px;
 } 
 
-.rodape 
-{
+.rodape {
 
     background-color: #484c7f;
-    height: 220px;
+    height: 230px;
     border: 1px solid #130400;
 }
 
-.banner h2 
-{
+.banner h2 {
 
     color: #fff; 
     font-size: 40px; 
@@ -98,16 +86,14 @@ div[role="main"], nav, aside
     text-align: center
 }
 
-.livros
-{
+.livros {
     
     background-image: url(../img/banner.jpg); 
     border: 1px solid #130400;
     padding-bottom: 50px;
 }
 
-.livraria img 
-{
+.livraria img {
     
     border-radius: 10px; 
     border: 2px dashed #130400;
@@ -118,22 +104,19 @@ div[role="main"], nav, aside
     width: 160px;
 }
 
-.livraria 
-{
+.livraria {
 
     display: inline; 
     margin-left: 55px;
 
 }
 
-.livraria :first-child 
-{
+.livraria :first-child {
     
     margin-left: 25px;
 }
 
-.produtos h1 
-{
+.produtos h1 {
 
     text-align: center;
     font-family: 'Lobster', cursive;
@@ -142,8 +125,7 @@ div[role="main"], nav, aside
 
 }
 
-.adiciona 
-{
+.adiciona {
 
     text-decoration: none;
     color: indigo;
@@ -155,16 +137,14 @@ div[role="main"], nav, aside
 
 }
 
-.adiciona:hover
-{
+.adiciona:hover {
 
     color: #fff;
     background-color: indigo;
 
 }
 
-.produtos 
-{
+.produtos {
 
     width: 100%;
     border-style: solid;
@@ -178,16 +158,14 @@ div[role="main"], nav, aside
     display: inline-table;
 }
 
-.item img
-{
+.item img {
 
     border-radius: 50%;
     border: 1px solid indigo;
 
 }
 
-.item
-{
+.item {
     
     display: inline-flexbox;
     border-style: solid;
@@ -195,28 +173,24 @@ div[role="main"], nav, aside
     background-color: #f1d4d4;
 }
 
-.item:first-child 
-{
+.item:first-child {
 
     margin-left: 0;
 }
 
-img 
-{
+img {
 
     width: 100px;
 }
 
-.sobre 
-{
+.sobre {
 
     background-color: #8679A3;
     height: 500px;
     border: 1px solid #130400;
 }
 
-.sobre h2 
-{
+.sobre h2 {
 
     text-align: center;
     font-family: 'Lobster', cursive;
@@ -226,8 +200,7 @@ img
 
 }
 
-.sobre h3 
-{
+.sobre h3 {
 
     text-align: center;
     color: #fff;
@@ -237,15 +210,13 @@ img
 
 }
 
-.bloco 
-{
+.bloco {
 
     margin-top: 5%;
 
 }
 
-.bloco img 
-{
+.bloco img {
 
     margin-left: 40%;
     border-radius: 50%;
@@ -254,8 +225,7 @@ img
 
 }
 
-.formulario 
-{
+.formulario {
 
     border: 2px double #fff;
     border-radius: 10px;
@@ -263,15 +233,13 @@ img
 
 }
 
-.formulario input 
-{
+.formulario input {
 
     border: 1px solid #130400;
 
 }
 
-.alert 
-{
+.alert {
 
     text-align: center;
     background-color: #98FB98;
@@ -279,8 +247,7 @@ img
 
 }
 
-.rodape h1 
-{
+.rodape h1 {
 
     font-family: 'Lobster', cursive;
     color: #f1d4d4;
@@ -289,8 +256,7 @@ img
 
 }
 
-.rodape h3 
-{
+.rodape h3 {
 
     font-family: 'Lato', sans-serif;
     color: #fff;
@@ -299,22 +265,19 @@ img
 
 }
 
-.menu i 
-{
+.menu i {
 
     display: none;
 
 }
 
-.logo
-{
+.logo {
 
     display: none;
 
 }
 
-.form_img 
-{
+.form_img {
 
     cursor: pointer;
     float: top;
@@ -332,13 +295,11 @@ img
 }
 
 
-
 /* Extra small devices (portrait phones, less than 576px) */
 
 @media (max-width: 575.98px) { 
 
-.logo 
-{
+.logo {
 
     color: #fff;
     display: inline-table;
@@ -350,23 +311,20 @@ img
 
 }
 
-.topo
-{
+.topo{
 
     height: 80px;
     background-color: #f1d4d4;
 
 }
 
-.btn_menu i 
-{
+.btn_menu i {
 
     color: #fff;
 
 }
 
-.btn_menu 
-{
+.btn_menu {
 
     display: block;
     width: 70px; 
@@ -380,8 +338,7 @@ img
 
 }
 
-.btn_close 
-{
+.btn_close {
     
 
     font-size: 1.5em; 
@@ -392,22 +349,19 @@ img
 
 }
 
-.btn_close a 
-{
+.btn_close a {
 
     color: #fff;
 
 }
 
-.banner
-{
+.banner {
 
     float: top;
 
 }
 
-.menu 
-{
+.menu {
 
     display: none;
     width: 100%; 
@@ -420,15 +374,13 @@ img
 
 }
 
-.menu ul li 
-{
+.menu ul li {
 
     margin-top: 40px;
 
 }
 
-.menu ul li a 
-{
+.menu ul li a {
 
     color: #fff;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -437,16 +389,14 @@ img
 
 }
 
-.livros 
-{
+.livros {
 
     width: 100%;
     position: relative;
 
 }
 
-.livraria 
-{
+.livraria {
 
     width: 100%;
     position: relative;
@@ -455,30 +405,26 @@ img
 
 
 
-.contato h1
-{
+.contato h1 {
 
     text-align: center;
 
 }
 
-.contato h3 
-{
+.contato h3 {
 
     text-align: center;
     text-size-adjust: 10px;
 
 }
 
-.rodape 
-{
+.rodape {
 
     height: 300px;
 
 }
 
-.alert 
-{
+.alert {
 
     border: 1px dashed #130400;
     text-align: center;
@@ -487,8 +433,7 @@ img
     margin-top: 25%;
 }
 
-.bloco 
-{
+.bloco {
 
     margin-top: 80px;
     align-content: center;
@@ -497,8 +442,7 @@ img
 
 }
 
-.bloco img 
-{
+.bloco img {
 
     margin-top: 10px;
     width: 200px;
@@ -506,8 +450,7 @@ img
 
 }
 
-.form_img 
-{
+.form_img {
 
     cursor: pointer;
     float: top;
@@ -527,45 +470,39 @@ img
 
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 
-    .container-fluid 
-    {
+    .container-fluid {
 
         padding: 5px;
         background-image: url(../img/banner2.jpg);
     
     }
     
-    .row 
-    {
+    .row {
     
         background-color: #f1d4d4;
         border: 1px solid #130400;
     
     }
     
-    .btn_menu 
-    {
+    .btn_menu {
     
         display: none;
     
     }
     
-    .menu 
-    {
+    .menu {
     
         height: 50px;
     
     }
     
-    .menu ul
-    {
+    .menu ul {
     
         list-style: none;
     
     }
     
-    .menu ul li 
-    {
+    .menu ul li {
     
         text-decoration: none;
         float: left;
@@ -573,8 +510,7 @@ img
     
     }
     
-    .menu ul li a 
-    {
+    .menu ul li a {
     
         text-decoration: none;
         font-family: 'Lobster', cursive;
@@ -583,8 +519,7 @@ img
     
     }
     
-    [class*="col-"], header, footer, nav, aside, section, div[role="main"] 
-    {
+    [class*="col-"], header, footer, nav, aside, section, div[role="main"] {
     
         padding: 15px;
         text-align: center;
@@ -592,29 +527,25 @@ img
     
     }
     
-    div[role="main"] 
-    {
+    div[role="main"] {
            
         background-color: #f1d4d4;
         
     }
        
-    div[role="main"], nav, aside 
-    {
+    div[role="main"], nav, aside {
     
         height: 600px;
     } 
     
-    .rodape 
-    {
+    .rodape {
     
         background-color: #484c7f;
         height: 220px;
         border: 1px solid #130400;
     }
     
-    .banner h2 
-    {
+    .banner h2 {
     
         color: #fff; 
         font-size: 40px; 
@@ -623,16 +554,14 @@ img
         text-align: center
     }
     
-    .livros 
-    {
+    .livros {
         
         background-image: url(../img/banner.jpg); 
         border: 1px solid #130400;
         padding-bottom: 50px;
     }
     
-    .livraria img 
-    {
+    .livraria img {
         
         border-radius: 10px; 
         border: 2px dashed #130400;
@@ -643,22 +572,19 @@ img
         width: 160px;
     }
     
-    .livraria 
-    {
+    .livraria {
     
         display: inline; 
         margin-left: 55px;
     
     }
     
-    .livraria :first-child 
-    {
+    .livraria :first-child {
         
         margin-left: 25px;
     }
     
-    .produtos h1 
-    {
+    .produtos h1 {
     
         text-align: center;
         font-family: 'Lobster', cursive;
@@ -667,8 +593,7 @@ img
     
     }
     
-    .adiciona 
-    {
+    .adiciona {
     
         text-decoration: none;
         color: indigo;
@@ -680,16 +605,14 @@ img
     
     }
     
-    .adiciona:hover 
-    {
+    .adiciona:hover {
     
         color: #fff;
         background-color: indigo;
     
     }
     
-    .produtos 
-    {
+    .produtos {
     
         width: 100%;
         border-style: solid;
@@ -703,16 +626,14 @@ img
         display: inline-table;
     }
     
-    .item img 
-    {
+    .item img {
     
         border-radius: 50%;
         border: 1px solid indigo;
     
     }
     
-    .item 
-    {
+    .item {
         
         display: inline-flexbox;
         border-style: solid;
@@ -720,28 +641,24 @@ img
         background-color: #f1d4d4;
     }
     
-    .item:first-child 
-    {
+    .item:first-child {
     
         margin-left: 0;
     }
     
-    img 
-    {
+    img {
     
         width: 100px;
     }
     
-    .sobre 
-    {
+    .sobre {
     
         background-color: #8679A3;
         height: 500px;
         border: 1px solid #130400;
     }
     
-    .sobre h2 
-    {
+    .sobre h2 {
     
         text-align: center;
         font-family: 'Lobster', cursive;
@@ -751,8 +668,7 @@ img
     
     }
     
-    .sobre h3 
-    {
+    .sobre h3 {
     
         text-align: center;
         color: #fff;
@@ -762,15 +678,13 @@ img
     
     }
     
-    .bloco 
-    {
+    .bloco {
     
         margin-top: 5%;
     
     }
     
-    .bloco img 
-    {
+    .bloco img {
     
         margin-left: 40%;
         border-radius: 50%;
@@ -779,8 +693,7 @@ img
     
     }
     
-    .formulario 
-    {
+    .formulario {
     
         border: 2px double #fff;
         border-radius: 10px;
@@ -788,15 +701,13 @@ img
     
     }
     
-    .formulario input 
-    {
+    .formulario input {
     
         border: 1px solid #130400;
     
     }
     
-    .alert 
-    {
+    .alert {
     
         text-align: center;
         background-color: #98FB98;
@@ -804,8 +715,7 @@ img
     
     }
     
-    .rodape h1 
-    {
+    .rodape h1 {
     
         font-family: 'Lobster', cursive;
         color: #f1d4d4;
@@ -814,8 +724,7 @@ img
     
     }
     
-    .rodape h3 
-    {
+    .rodape h3 {
     
         font-family: 'Lato', sans-serif;
         color: #fff;
@@ -824,22 +733,19 @@ img
     
     }
     
-    .menu i 
-    {
+    .menu i {
     
         display: none;
     
     }
     
-    .logo 
-    {
+    .logo {
     
         display: none;
     
     }
 
-    .form_img 
-    {
+    .form_img {
 
         cursor: pointer;
         float: top;
@@ -859,45 +765,39 @@ img
 
 @media (min-width: 1200px) { 
 
-    .container-fluid 
-    {
+    .container-fluid {
 
         padding: 5px;
         background-image: url(../img/banner2.jpg);
     
     }
     
-    .row 
-    {
+    .row {
     
         background-color: #f1d4d4;
         border: 1px solid #130400;
     
     }
     
-    .btn_menu
-    {
+    .btn_menu {
     
         display: none;
     
     }
     
-    .menu 
-    {
+    .menu {
     
         height: 50px;
     
     }
     
-    .menu ul 
-    {
+    .menu ul {
     
         list-style: none;
     
     }
     
-    .menu ul li 
-    {
+    .menu ul li {
     
         text-decoration: none;
         float: left;
@@ -905,8 +805,7 @@ img
     
     }
     
-    .menu ul li a 
-    {
+    .menu ul li a {
     
         text-decoration: none;
         font-family: 'Lobster', cursive;
@@ -915,8 +814,7 @@ img
     
     }
     
-    [class*="col-"], header, footer, nav, aside, section, div[role="main"] 
-    {
+    [class*="col-"], header, footer, nav, aside, section, div[role="main"] {
     
         padding: 15px;
         text-align: center;
@@ -924,29 +822,25 @@ img
     
     }
     
-    div[role="main"] 
-    {
+    div[role="main"] {
            
         background-color: #f1d4d4;
         
     }
        
-    div[role="main"], nav, aside 
-    {
+    div[role="main"], nav, aside {
     
         height: 600px;
     } 
     
-    .rodape 
-    {
+    .rodape {
     
         background-color: #484c7f;
         height: 220px;
         border: 1px solid #130400;
     }
     
-    .banner h2 
-    {
+    .banner h2 {
     
         color: #fff; 
         font-size: 40px; 
@@ -955,16 +849,14 @@ img
         text-align: center
     }
     
-    .livros 
-    {
+    .livros {
         
         background-image: url(../img/banner.jpg); 
         border: 1px solid #130400;
         padding-bottom: 50px;
     }
     
-    .livraria img 
-    {
+    .livraria img {
         
         border-radius: 10px; 
         border: 2px dashed #130400;
@@ -975,22 +867,19 @@ img
         width: 160px;
     }
     
-    .livraria 
-    {
+    .livraria {
     
         display: inline; 
         margin-left: 55px;
     
     }
     
-    .livraria :first-child 
-    {
+    .livraria :first-child {
         
         margin-left: 25px;
     }
     
-    .produtos h1 
-    {
+    .produtos h1 {
     
         text-align: center;
         font-family: 'Lobster', cursive;
@@ -999,8 +888,7 @@ img
     
     }
     
-    .adiciona 
-    {
+    .adiciona {
     
         text-decoration: none;
         color: indigo;
@@ -1012,16 +900,14 @@ img
     
     }
     
-    .adiciona:hover
-    {
+    .adiciona:hover {
     
         color: #fff;
         background-color: indigo;
     
     }
     
-    .produtos 
-    {
+    .produtos {
     
         width: 100%;
         border-style: solid;
@@ -1035,16 +921,14 @@ img
         display: inline-table;
     }
     
-    .item img 
-    {
+    .item img {
     
         border-radius: 50%;
         border: 1px solid indigo;
     
     }
     
-    .item
-    {
+    .item {
         
         display: inline-flexbox;
         border-style: solid;
@@ -1052,28 +936,24 @@ img
         background-color: #f1d4d4;
     }
     
-    .item:first-child 
-    {
+    .item:first-child {
     
         margin-left: 0;
     }
     
-    img 
-    {
+    img {
     
         width: 100px;
     }
     
-    .sobre 
-    {
+    .sobre {
     
         background-color: #8679A3;
         height: 500px;
         border: 1px solid #130400;
     }
     
-    .sobre h2 
-    {
+    .sobre h2 {
     
         text-align: center;
         font-family: 'Lobster', cursive;
@@ -1083,8 +963,7 @@ img
     
     }
     
-    .sobre h3 
-    {
+    .sobre h3 {
     
         text-align: center;
         color: #fff;
@@ -1094,15 +973,13 @@ img
     
     }
     
-    .bloco 
-    {
+    .bloco {
     
         margin-top: 5%;
     
     }
     
-    .bloco img 
-    {
+    .bloco img {
     
         margin-left: 40%;
         border-radius: 50%;
@@ -1111,8 +988,7 @@ img
     
     }
     
-    .formulario
-    {
+    .formulario {
     
         border: 2px double #fff;
         border-radius: 10px;
@@ -1120,15 +996,13 @@ img
     
     }
     
-    .formulario input 
-    {
+    .formulario input {
     
         border: 1px solid #130400;
     
     }
     
-    .alert 
-    {
+    .alert {
     
         text-align: center;
         background-color: #98FB98;
@@ -1136,8 +1010,7 @@ img
     
     }
     
-    .rodape h1
-    {
+    .rodape h1 {
     
         font-family: 'Lobster', cursive;
         color: #f1d4d4;
@@ -1146,8 +1019,7 @@ img
     
     }
     
-    .rodape h3 
-    {
+    .rodape h3 {
     
         font-family: 'Lato', sans-serif;
         color: #fff;
@@ -1156,22 +1028,19 @@ img
     
     }
     
-    .menu i 
-    {
+    .menu i {
     
         display: none;
     
     }
     
-    .logo 
-    {
+    .logo {
     
         display: none;
     
     }
 
-    .form_img 
-    {
+    .form_img {
 
         cursor: pointer;
         float: top;
